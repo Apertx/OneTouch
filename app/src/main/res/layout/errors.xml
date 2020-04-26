@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="32sp"
+		android:gravity="center"
+		android:id="@+id/error_disp"
+		android:layout_margin="32dp"
+		android:layout_weight="1.0"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Er1"
+			android:layout_weight="1.0"
+			android:textSize="32sp"
+			android:id="@+id/er1"
+			android:layout_margin="8dp"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Er2"
+			android:layout_weight="1.0"
+			android:textSize="32sp"
+			android:id="@+id/er2"
+			android:layout_margin="8dp"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Er3"
+			android:layout_weight="1.0"
+			android:textSize="32sp"
+			android:id="@+id/er3"
+			android:layout_margin="8dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Er4"
+			android:layout_weight="1.0"
+			android:textSize="32sp"
+			android:id="@+id/er4"
+			android:layout_margin="8dp"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Er5"
+			android:layout_weight="1.0"
+			android:textSize="32sp"
+			android:id="@+id/er5"
+			android:layout_margin="8dp"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Er6"
+			android:layout_weight="1.0"
+			android:textSize="32sp"
+			android:id="@+id/er6"
+			android:layout_margin="8dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Hi.t"
+			android:layout_weight="1.0"
+			android:layout_margin="8dp"
+			android:textSize="32sp"
+			android:id="@+id/hit"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Lo.t"
+			android:layout_weight="1.0"
+			android:layout_margin="8dp"
+			android:textSize="32sp"
+			android:id="@+id/lot"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

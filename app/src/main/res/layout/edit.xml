@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Дата:"
+		android:textSize="24sp"
+		android:layout_margin="8dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="date"
+		android:layout_height="wrap_content"
+		android:ems="8"
+		android:id="@+id/edit_date"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Время:"
+		android:textSize="24sp"
+		android:layout_margin="8dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="time"
+		android:layout_height="wrap_content"
+		android:ems="8"
+		android:id="@+id/edit_time"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Значение:"
+		android:textSize="24sp"
+		android:layout_margin="8dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="numberDecimal"
+		android:layout_height="wrap_content"
+		android:ems="8"
+		android:id="@+id/edit_result"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="Удалить"
+			android:id="@+id/edit_delete"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_height="wrap_content"
+			android:text="Ок"
+			android:layout_alignParentRight="true"
+			android:id="@+id/edit_ok"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

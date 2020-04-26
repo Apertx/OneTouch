@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Тема:"
+		android:textSize="24sp"
+		android:layout_margin="8dp"/>
+
+	<Spinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/themes"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:inputType="numberDecimal"
+			android:layout_height="wrap_content"
+			android:ems="3"
+			android:textSize="24sp"
+			android:hint="3.9"
+			android:gravity="center_horizontal"
+			android:id="@+id/min_result"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="&lt; Норма глюкозы &lt;"
+			android:layout_centerInParent="true"
+			android:textSize="24sp"/>
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:inputType="numberDecimal"
+			android:layout_height="wrap_content"
+			android:ems="3"
+			android:layout_alignParentRight="true"
+			android:textSize="24sp"
+			android:hint="10.0"
+			android:gravity="center_horizontal"
+			android:id="@+id/max_result"/>
+
+	</RelativeLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+
+</LinearLayout>
+
